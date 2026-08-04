@@ -1,0 +1,55 @@
+Este é um resumo curto baseado no Capítulo 1 da incrível obra Business Intelligence e Análise de Dados para Gestão do Negócio (Sharda, Delen amp; Turban, 4ª ed.), elaborado com o intuito de me aprimorar ainda mais nesta área e comprovar minha base teórica 
+
+1. Começando com a Introdução ao Mercado Orientado a Dados
+No complexo e volátil ambiente de negócios contemporâneo, a agilidade e a precisão na tomada de decisões tornaram-se imperativos para a sobrevivência e vantagem competitiva das organizações, principalmente as organizações brasileiras. O resumo do Capítulo 1  desse livro estabelece que a intuição gerencial não é mais suficiente; todo tipo de empresa precisa de um suporte computadorizado avançado para processar vastas quantidades de dados em tempo real. Este suporte evoluiu historicamente e culminou nas disciplinas que hoje nós profissionais de BI chamamos de Business Intelligence (BI), Business Analytics (Análise de Negócios) e Ciência de Dados.
+
+2. A Evolução Histórica do Apoio à Decisão
+A jornada dos dados nas corporações passou por uma profunda transformação nas últimas décadas:
+
+Anos 1970 (MIS e DSS): Nessa primeira época, o foco estava na geração de relatórios estáticos através de Sistemas de Informação Gerencial (MIS) e nos primeiros Sistemas de Apoio à Decisão (DSS), que ajudavam a resolver problemas semi estruturados.
+Anos 1980 (ERP e RDBM): Surgimento dos primeiros sistemas de Planejamento de Recursos Empresariais (ERP) e os Primeiros Sistemas de Gerenciamento de Bancos de Dados Relacionais, integrando dados transacionais de toda a empresa.
+Anos 1990 (EIS e Data Warehouse): A necessidade de visões executivas levou aos Sistemas de Informação Executivos (EIS) e, crucialmente, ao desenvolvimento dos famosos Data Warehouse (DW), separando a base analítica da base transacional.
+Anos 2000 (Business Intelligence - BI): Aqui é onde acontece a consolidação do BI moderno, fornecendo acesso interativo, painéis visuais (Dashboards com ferramentas interativas) e geração de relatórios para os líderes.
+Anos 2010 em diante (Analytics e Big Data): A explosão de dados não estruturados (por exemplo: redes sociais, sensores, IoT, WhatsApp, Imagens, Vídeos, etc...) introduziu a era do Big Data, demandando algoritmos complexos, Mineração de Dados (Data Mining) e o paradigma do Analytics e da Ciência de Dados.
+
+3. O Ecossistema e a Arquitetura do Business Intelligence (BI)
+Primeiramente, oque é o Business Intelligence? O famoso BI é definido como um termo guarda-chuva que combina arquiteturas, ferramentas, bases de dados e metodologias para transformar dados em informações, informações em decisões e decisões em ações.
+
+O capítulo destaca uma diferença arquitetônica fundamental para o sucesso do BI:
+
+OLTP (Online Transaction Processing): Sistemas focados no processamento rápido de transações diárias (ex: vendas no caixa, saques). São ineficientes para análises complexas.
+OLAP (Online Analytical Processing): Sistemas projetados especificamente para consultas gerenciais complexas e extração de insights, alimentados pelo Data Warehouse.
+
+A arquitetura padrão de BI envolve quatro componentes principais, sendo entre eles:
+
+Fontes de dados integradas via ETL (Extração, Transformação e Carga) para um Data Warehouse; 
+Ferramentas de Business Analytics e Business Intelligence para manipulação e mineração de dados;
+Gestão de Desempenho de Negócios para as empresas (BPM);
+Interfaces de Usuário, predominantemente Dashboards interativos que oferecem visualização clara dos KPIs.
+
+4. Business Analytics: Os Três Pilares
+A transição conceitual do BI tradicional para o Business Analytics é o foco do capítulo. Utilizando a classificação do instituto INFORMS, o Analytics é dividido em três níveis interconectados:
+
+I. Análise Descritiva (O que está acontecendo?)
+É o alicerce do Analytics. Trata-se da consolidação de fontes de dados e do uso de visualização de dados para entender o estado atual do negócio e tendências históricas. Ferramentas de geração de relatórios interativos e Dashboards permitem que os gestores compreendam as causas subjacentes dos eventos operacionais.
+
+II. Análise Preditiva (O que vai acontecer?)
+Utiliza técnicas estatísticas e de Machine Learning (Aprendizado de Máquina) para prever comportamentos e eventos futuros. Através da Mineração de Dados e de Modelos Preditivos (MPs), as empresas podem, por exemplo, prever a probabilidade de evasão de clientes (churn), identificar fraudes antes que ocorram ou prever quais produtos serão comprados em conjunto (análise de cesta de compras).
+
+III. Análise Prescritiva (O que devemos fazer?)
+O nível mais avançado. Não apenas prevê o futuro, mas recomenda a melhor ação a ser tomada para otimizar o desempenho. Utiliza pesquisa operacional, algoritmos de otimização e simulação matemática. É aplicada em decisões complexas, como precificação dinâmica (yield management) em companhias aéreas ou otimização de rotas logísticas e de cadeias de suprimentos.
+
+5. Aplicações Práticas e Transformação Setorial
+O capítulo ilustra que o Analytics e a Ciência de Dados (termos tratados como sinônimos práticos no texto, embora o segundo exija maior rigor em programação e algoritmos) são universais. Exemplos práticos incluem:
+
+Esportes (Sports Analytics): Modelos preditivos para precificação dinâmica de ingressos, análise tática de adversários e o uso de sensores (wearables) para prever e prevenir lesões em atletas.
+Saúde (Healthcare): Uso de dados clínicos e comportamentais para criar modelos preditivos de risco (ex: o caso da Humana precebendo quedas em idosos e identificando pacientes de alto custo recém-chegados).
+Varejo: Aplicações massivas na cadeia de valor, incluindo otimização de estoque, elasticidade de preços, análise de afinidade de produtos (vendas cruzadas) e uso de análise de vídeo para mapear o comportamento demográfico dentro da loja física.
+Aviação e Turismo: O caso da Sabre (provedora de tecnologia para o turismo) ilustra o uso da Análise Descritiva. Por meio de um Data Warehouse empresarial integrado, eles substituíram relatórios manuais de 8 horas por Dashboards Executivos em tempo real, permitindo que executivos de companhias aéreas monitorem faturamento, taxa de ocupação e operações de voo de forma instantânea.
+Manufatura e Indústria Pesada (Siderurgia): O texto cita o caso de uma fábrica de barras de aço sob medida que aplica a Análise Prescritiva. Um Sistema de Apoio à Decisão (DSS) analisa em tempo real o estoque de matéria-prima, restrições da fábrica e pedidos de outros clientes para otimizar a "promessa de entrega" (Available-to-Promise). O algoritmo avalia se vale a pena atrasar um pedido antigo para aceitar um novo pedido urgente e lucrativo, prescrevendo a melhor decisão comercial.
+
+6. Conclusão e a Fronteira do Big Data
+O capítulo lido conclui o terreno para as tecnologias emergentes. O suporte computadorizado à decisão provou ser capaz de superar os limites cognitivos humanos, permitindo que as corporações processem variáveis quase infinitas de dados. 
+
+A fronteira atual, abordada no final da introdução, é o Big Data, que é caracterizado pelo imenso volume, variedade e velocidade dos dados (5 V's) que exige novas infraestruturas (como Hadoop por exemplo) e reafirma o papel do Cientista de Dados como peça central na estratégia de qualquer corporação que busque inovação e eficiência no século XXI.
+
